@@ -1,0 +1,57 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4F7942; /* Dark green background */
+    color: white;
+    padding: 20px; /* Increased padding for a larger header */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between logo and title */
+    position: relative; /* Keep position relative for absolute logo */
+}
+
+.logo-container {
+    position: absolute; /* Position the logo container absolutely */
+    top: 20px; /* Adjust the top position to match the padding */
+    left: 10px; /* Adjust the left position */
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center the title text */
+    flex-grow: 1; /* Allow the title to take up remaining space */
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px; /* Add some margin above the map */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4F7942; /* Dark green footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Profile icon styles */
+.profile-icon {
+    width: 30px; /* Set width for the profile icon */
+    height: 30px; /* Set height for the profile icon */
+    border-radius: 50%; /* Make it round */
+    margin-right: 10px; /* Space between icon and logout link */
+}
